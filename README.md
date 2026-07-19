@@ -127,9 +127,9 @@ Run the desired project according to its documentation.
 
 ## 👩‍💻 Author
 
-**Varshitha B**
+**P. Durga Divija Sri Sai**
 
-B.Tech – Artificial Intelligence & Data Science  
+B.Tech – Computer Science and Engeering 
 Amrita Vishwa Vidyapeetham
 
 GitHub: https://github.com/divija30-code
