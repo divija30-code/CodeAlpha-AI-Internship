@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+venv/
+**/venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+
+# YOLO Models
+*.pt
+
+# Generated Files
+output/
+generated/
