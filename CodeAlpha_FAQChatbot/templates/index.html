@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>FAQ Chatbot</title>
+
+<style>
+
+body{
+
+font-family:Arial;
+
+background:#f2f2f2;
+
+}
+
+.container{
+
+width:600px;
+
+margin:40px auto;
+
+background:white;
+
+padding:20px;
+
+border-radius:10px;
+
+}
+
+#chat{
+
+height:400px;
+
+overflow-y:auto;
+
+border:1px solid gray;
+
+padding:10px;
+
+margin-bottom:10px;
+
+}
+
+.user{
+
+color:blue;
+
+font-weight:bold;
+
+}
+
+.bot{
+
+color:green;
+
+font-weight:bold;
+
+}
+
+input{
+
+width:80%;
+
+padding:10px;
+
+}
+
+button{
+
+padding:10px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>FAQ Chatbot</h2>
+
+<div id="chat"></div>
+
+<input id="msg" placeholder="Ask something...">
+
+<button onclick="send()">Send</button>
+
+</div>
+
+<script>
+
+function send(){
+
+let message=document.getElementById("msg").value;
+
+fetch("/chat",{
+
+method:"POST",
+
+headers:{
+
+"Content-Type":"application/x-www-form-urlencoded"
+
+},
+
+body:"message="+encodeURIComponent(message)
+
+})
+
+.then(res=>res.text())
+
+.then(data=>{
+
+let chat=document.getElementById("chat");
+
+chat.innerHTML+="<p class='user'>You: "+message+"</p>";
+
+chat.innerHTML+="<p class='bot'>Bot: "+data+"</p>";
+
+document.getElementById("msg").value="";
+
+chat.scrollTop=chat.scrollHeight;
+
+});
+
+}
+
+</script>
+
+</body>
+
+</html>
