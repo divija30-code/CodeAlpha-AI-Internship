@@ -129,7 +129,7 @@ Run the desired project according to its documentation.
 
 **P. Durga Divija Sri Sai**
 
-B.Tech – Computer Science and Engeering,
+B.Tech – Computer Science and Engeering
 
 Amrita Vishwa Vidyapeetham
 
