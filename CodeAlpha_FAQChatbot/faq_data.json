@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence is the simulation of human intelligence in machines."
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a subset of AI that enables computers to learn from data."
+  },
+  {
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of Machine Learning using neural networks with many layers."
+  },
+  {
+    "question": "What is Python?",
+    "answer": "Python is a high-level programming language used in AI, web development, automation and more."
+  },
+  {
+    "question": "What is NLP?",
+    "answer": "Natural Language Processing enables computers to understand and generate human language."
+  },
+  {
+    "question": "Who developed Python?",
+    "answer": "Python was developed by Guido van Rossum."
+  },
+  {
+    "question": "What is Data Science?",
+    "answer": "Data Science extracts meaningful insights from data using statistics, machine learning and visualization."
+  },
+  {
+    "question": "What is TensorFlow?",
+    "answer": "TensorFlow is an open-source deep learning framework developed by Google."
+  },
+  {
+    "question": "What is Flask?",
+    "answer": "Flask is a lightweight Python web framework."
+  },
+  {
+    "question": "What is ChatGPT?",
+    "answer": "ChatGPT is an AI chatbot developed by OpenAI."
+  }
+]
